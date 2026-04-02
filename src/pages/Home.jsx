@@ -6,49 +6,46 @@ import WorkSection from "../components/WorkSection"
 import InterestsSection from "../components/InterestsSection"
 import ContactSection from "../components/ContactSection"
 import Navbar from "../components/NavBar"
-import treeTrunk from "@/assets/tree-trunk.png"
+import treeTrunkLight from "@/assets/tree-trunk.png"
+import treeTrunkDark from "@/assets/tree-trunk-dark.png"
+import { useTheme } from "../context/ThemeContext"
 
 const Home = () => {
+  const { isDarkMode } = useTheme()
+  const treeTrunk = isDarkMode ? treeTrunkDark : treeTrunkLight
+
+  
   return (
     <div className="min-h-screen bg-background text-foreground">
 
       <ThemeToggle />
 
-      {/* Everything with the trunk */}
       <div className="relative">
 
-        {/* Trunk image - spans from hero overlap down to interests */}
         <img
           src={treeTrunk}
           alt=""
-          className="absolute top-[960px] left-0 h-[calc(100%-960px)] w-60 z-10
+          className="absolute top-[960px] left-0 h-1130 w-60 z-10
                      pointer-events-none"
         />
 
-        {/* Hero - full width, trunk overlaps bottom */}
         <HeroSection />
 
-        {/* About - no nav yet */}
-
-        {/* Nav spans these sections only */}
         <div className="relative">
 
-          {/* Nav wrapper - absolute so no space taken */}
           <div className="absolute top-0 left-0 h-full w-[80px] z-20">
             <Navbar />
           </div>
 
-          {/* Sections the nav spans */}
-            <AboutSection />
-            <ProjectsSection />
-            <WorkSection />
-            <InterestsSection />
+          <AboutSection />
+          <ProjectsSection />
+          <WorkSection />
+          <InterestsSection />
 
         </div>
 
       </div>
 
-      {/* Contact / Roots - no trunk, no nav */}
       <ContactSection />
 
     </div>
