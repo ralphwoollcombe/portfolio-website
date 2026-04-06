@@ -25,7 +25,7 @@ const ProjectCard = ({ title, description, icon: Icon, tags, github, isDarkMode 
     >
       {/* Icon */}
       <div
-        className={`absolute w-14 h-14 rounded-full flex items-center justify-center mb-5
+        className={`absolute w-14 h-14 opacity-0 md:opacity-100 rounded-full flex items-center justify-center mb-5
                     ${isDarkMode ? "bg-[#5D77AE]/30" : "bg-[#2A442E]/20"}`}
       >
         <Icon

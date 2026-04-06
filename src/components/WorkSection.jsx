@@ -13,12 +13,12 @@ const TimelineNode = ({ exp, index, isActive, onClick, isDarkMode }) => {
   const cardClass = `cursor-pointer transition-all duration-300
                      max-w-[160px] md:max-w-[200px] lg:max-w-[220px]
                      rounded-xl px-2.5 py-2 md:px-3 md:py-2.5 backdrop-blur-sm
-                     ${isActive ? "scale-[1.03]" : "hover:scale-[1.01]"}
+                     ${isActive ? "scale-[1.05] border-3" : "hover:scale-[1.01]"}
                      ${isDarkMode
                        ? `bg-[#323C4F]/50 border
-                          ${isActive ? "border-[#8395BA]/60" : "border-[#5D77AE]/20"}`
+                          ${isActive ? "border-[#e8e8e8]/70" : "border-[#5D77AE]/20"}`
                        : `bg-[#FFFEFD]/50 border
-                          ${isActive ? "border-[#ffb888]/70" : "border-[#BED1C1]/30"}`
+                          ${isActive ? "border-[#2A442E]/60" : "border-[#BED1C1]/30"}`
                      }`
 
   return (
@@ -63,8 +63,8 @@ const TimelineNode = ({ exp, index, isActive, onClick, isDarkMode }) => {
                     transition-all duration-300
                     ${isActive
                       ? isDarkMode
-                        ? "bg-[#4A6A7B] scale-150 shadow-[0_0_12px_rgba(131,149,186,0.5)]"
-                        : "bg-[#ffb888] scale-150 shadow-[0_0_12px_rgba(255,184,136,0.5)]"
+                        ? "bg-[#e8e8e8]/60 scale-150 shadow-[0_0_12px_rgba(131,149,186,0.5)]"
+                        : "bg-[#2A442E]/60 scale-150 shadow-[0_0_12px_rgba(255,184,136,0.5)]"
                       : isDarkMode
                         ? "bg-[#5D77AE]/50 hover:bg-[#8395BA]/70"
                         : "bg-[#98B19C] hover:bg-[#2A442E]/70"
@@ -166,12 +166,6 @@ I researched and synthesised scientific and narrative source material to support
 
 It was here that I developed the disciplined research practices, structured documentation habits, and meticulous attention to detail that have carried through everything I've done since — including my transition into software engineering.`,
     },
-  ]
-
-  const education = [
-    { institution: "General Assembly", qualification: "Software Engineering Bootcamp", date: "2025–26" },
-    { institution: "NFTS", qualification: "MA Directing & Producing", date: "2016–19" },
-    { institution: "University of Bristol", qualification: "BSc Biology", date: "2012–15" },
   ]
 
   return (

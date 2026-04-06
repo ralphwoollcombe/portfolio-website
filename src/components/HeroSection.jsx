@@ -50,17 +50,13 @@ const HeroSection = () => {
         <FallingLeaf isDarkMode={isDarkMode} delay={7} left="60%" size={13} />
 
         {/* === Main content === */}
-        <div className="container max-w-4xl mx-auto text-center z-10
+        <div className="container max-w-5xl mx-auto text-center z-10
                         top-52 relative pt-32">
 
           {/* Title */}
           <div className="space-y-4">
             <h1
-              className={`text-4xl md:text-6xl font-bold tracking-wide
-                          ${isDarkMode
-                            ? "text-[#FFFEFD]"
-                            : "text-[#FFFEFD]"
-                          }`}
+              className={`text-4xl md:text-6xl font-bold tracking-wide text-[#fffcf9]`}
               style={{
                 textShadow: isDarkMode
                   ? "0 0 20px rgba(131, 149, 186, 0.3), 0 2px 4px rgba(0,0,0,0.5)"
@@ -92,7 +88,7 @@ const HeroSection = () => {
           </p>
 
           {/* Fruit buttons - placeholder for future drop animation */}
-          <div className="flex gap-8 md:gap-28 lg:gap-48 mt-12 justify-center">
+          <div className="flex gap-8 md:gap-24 lg:gap-35 mt-12 justify-center">
             <a
               href="#about"
               className={`w-16 h-16 rounded-full flex items-center justify-center
@@ -128,6 +124,18 @@ const HeroSection = () => {
                           }`}
             >
               Work
+            </a>
+             <a
+              href="#interests"
+              className={`w-16 h-16 rounded-full flex items-center justify-center
+                          text-xs font-semibold transition-all duration-300
+                          hover:scale-110 cursor-pointer
+                          ${isDarkMode
+                            ? "bg-[#5D77AE]/80 text-[#FFFEFD] hover:bg-[#8395BA] shadow-[0_0_15px_rgba(93,119,174,0.3)]"
+                            : "bg-[#FFD8C1]/80 text-[#2A442E] hover:bg-[#FFEEE4] shadow-[0_0_15px_rgba(255,216,193,0.3)]"
+                          }`}
+            >
+              Interests
             </a>
             <a
               href="#contact"
