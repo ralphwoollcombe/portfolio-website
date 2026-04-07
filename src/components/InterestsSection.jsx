@@ -26,7 +26,7 @@ const FlipCard = ({ icon: Icon, title, description, isFlipped, onClick, isDarkMo
         style={{
           transformStyle: "preserve-3d",
           transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
-          aspectRatio: "3.5 / 2.5",
+          aspectRatio: "3.5 / 2.8",
         }}
       >
 
@@ -106,7 +106,7 @@ const FlipCard = ({ icon: Icon, title, description, isFlipped, onClick, isDarkMo
 
           {/* Description */}
           <p
-            className={`overflow-y-auto text-[10px] md:text-[11px] leading-relaxed flex-1
+            className={`overflow-y-auto text-[11px] md:text-[14px] leading-relaxed flex-1
                         ${isDarkMode ? "text-[#ffffff]/70" : "text-[#002E0E]/60"}`}
           >
             {description}
@@ -142,7 +142,7 @@ const InterestsSection = () => {
       icon: Scissors,
       title: "Costume & Crafting",
       description:
-        "I love getting hands-on with creative projects and have spent years making elaborate costumes, in 2024 I even went out to Rio, Brazil to work on the costumes for the official parade. that same year I organised a trashion show where myself and 12 other designers presented outfits created entirely from rubbish. Recently, I have discovered a new passion for puppetry and hope to put on a puppet show later this year!",
+        "I love getting hands-on with creative projects and have spent years making elaborate costumes. In 2024 I even went out to Rio, Brazil to work on the costumes for the official parade. That same year I organised a trashion show where myself and 12 other designers presented outfits created entirely from rubbish. Recently, I have discovered a new passion for puppetry and hope to put on a puppet show later this year!",
     },
     {
       icon: TreePine,

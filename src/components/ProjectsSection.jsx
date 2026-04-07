@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useTheme } from "../context/ThemeContext"
-import { FolderOpen, ExternalLink, GitBranch, Ship, Bird, Shirt, ChevronLeft, ChevronRight } from "lucide-react"
+import { FolderOpen, CodeXml, GitBranch, Ship, Bird, Shirt, ChevronLeft, ChevronRight } from "lucide-react"
 import { DiJavascript1, DiPython, DiNodejs, DiMongodb, DiPostgresql, DiHtml5, DiCss3, DiDjango } from "react-icons/di"
 import { SiExpress } from "react-icons/si"
 
@@ -13,14 +13,14 @@ import miniBranchesDark from "@/assets/mini-branches-dark.png"
 
 import Section from "./Section"
 
-const ProjectCard = ({ title, description, icon: Icon, tags, readme, github, isDarkMode }) => {
+const ProjectCard = ({ title, description, icon: Icon, tags, code, project, isDarkMode }) => {
   return (
     <div
       className={`relative rounded-2xl m-6 p-6 md:m-8 backdrop-blur-sm max-w-2xl max-h-[280px] overflow-y-auto w-full
                   transition-all duration-500
                   ${isDarkMode
-                    ? "bg-[#323C4F]/50 border-4 border-[#5D77AE]/80"
-                    : "bg-[#FFFEFD]/50 border-4 border-[#ffb888]/70"
+                    ? "bg-[#323C4F]/70 border-4 border-[#5D77AE]/80"
+                    : "bg-[#FFFEFD]/70 border-4 border-[#ffb888]/70"
                   }`}
     >
       {/* Icon */}
@@ -73,13 +73,13 @@ const ProjectCard = ({ title, description, icon: Icon, tags, readme, github, isD
         <div className="col-span-2 flex flex-col items-start">
           <p
             className={`text-left md:text-sm leading-relaxed mb-6
-                        ${isDarkMode ? "text-[#b3bfd7]" : "text-[#002E0E]/60"}`}
+                        ${isDarkMode ? "text-[#b3bfd7]" : "text-[#002E0E]/80"}`}
           >
             {description}
           </p>
           <div className="flex gap-4 justify-center">
             <a
-              href={github}
+              href={project}
               target="_blank"
               rel="noopener noreferrer"
               className={`flex items-center gap-2 text-sm font-medium
@@ -90,10 +90,12 @@ const ProjectCard = ({ title, description, icon: Icon, tags, readme, github, isD
                           }`}
             >
               <GitBranch className="w-5 h-5" />
-              Code
+              Project
             </a>
             <a
-              href={readme}
+              href={code}
+              target="_blank"
+              rel="noopener noreferrer"
               className={`flex items-center gap-2 text-sm font-medium
                           transition-colors duration-300
                           ${isDarkMode
@@ -101,8 +103,8 @@ const ProjectCard = ({ title, description, icon: Icon, tags, readme, github, isD
                             : "text-[#2A442E]/70 hover:text-[#2A442E]"
                           }`}
             >
-              <ExternalLink className="w-5 h-5" />
-              ReadMe
+              <CodeXml className="w-5 h-5" />
+              Code
             </a>
           </div>
         </div>
@@ -127,8 +129,8 @@ const ProjectsSection = () => {
       description:
         "A unique and creative browser-based version of Battleships using HTML, JavaScript and CSS. I pushed myself to develop complex functions that enhanced the gameplay dramatically as well as developing an engaging plot.",
       tags: [<DiHtml5/>, <DiCss3/>, <DiJavascript1/>],
-      github: "https://github.com/ralphwoollcombe/Project-1-battleships/tree/main",
-      readme: "https://github.com/ralphwoollcombe/Project-1-battleships/blob/main/README.md",
+      project: "https://ralphwoollcombe.github.io/Project-1-battleships/",
+      code: "https://github.com/ralphwoollcombe/Project-1-battleships/blob/main/README.md",
     },
     {
       title: "Twitcher",
@@ -136,8 +138,8 @@ const ProjectsSection = () => {
       description:
         "A full-stack birdwatching application built with Node.js, Express, and MongoDB. I implemented full and complex CRUD systems allowing users to curate their own profile log of species, sightings and habitats. The app features secure authentication with password encryption. I have many ideas to take this app further.",
       tags: [<DiNodejs/>, <SiExpress/>, <DiMongodb/>],
-      github: "https://github.com/ralphwoollcombe/Project-2-Fill-up-my-bucket",
-      readme: "https://github.com/ralphwoollcombe/Project-2-Fill-up-my-bucket/blob/main/README.md",
+      project: "https://general-assembly-twitcher-app-ee92b2371f30.herokuapp.com/",
+      code: "https://github.com/ralphwoollcombe/Project-2-Fill-up-my-bucket/blob/main/README.md",
     },
     {
       title: "Drobe",
@@ -145,8 +147,8 @@ const ProjectsSection = () => {
       description:
         "A full-stack sustainable wardrobe management app built with Python and PostgreSQL after just two weeks of learning Python. Features relational database schemas, CRUD functionality, and one-to-many and many-to-many model relationships.",
       tags: [<DiPython/>, <DiPostgresql/>, <DiDjango/>],
-      github: "https://github.com/ralphwoollcombe/drobe",
-      readme: "https://github.com/ralphwoollcombe/drobe/blob/main/README.md",
+      project: "https://ga-project-4-drobe-f5b59a82a212.herokuapp.com/",
+      code: "https://github.com/ralphwoollcombe/drobe/blob/main/README.md",
     },
   ]
 
@@ -219,7 +221,7 @@ const ProjectsSection = () => {
                         transition-all duration-300 hover:scale-110
                         ${isDarkMode
                           ? "bg-[#42547B]/40 text-[#c4ccdd] hover:bg-[#42547B]/60 border border-4 border-[#5D77AE]/80"
-                          : "bg-[#BED1C1]/40 text-[#2A442E] hover:bg-[#BED1C1]/60 border border-4 border-[#ffb888]/70"
+                          : "bg-[#BED1C1]/80 text-[#2A442E] hover:bg-[#BED1C1]/60 border border-4 border-[#ffb888]/70"
                         }`}
           >
             <ChevronLeft className="w-6 h-6" />
@@ -236,8 +238,8 @@ const ProjectsSection = () => {
                 icon={projects[currentIndex].icon}
                 description={projects[currentIndex].description}
                 tags={projects[currentIndex].tags}
-                github={projects[currentIndex].github}
-                readme={projects[currentIndex].readme}
+                project={projects[currentIndex].project}
+                code={projects[currentIndex].code}
                 isDarkMode={isDarkMode}
               />
             </div>
@@ -250,7 +252,7 @@ const ProjectsSection = () => {
                         transition-all duration-300 hover:scale-110
                         ${isDarkMode
                           ? "bg-[#42547B]/40 text-[#c4ccdd] hover:bg-[#42547B]/60 border border-4 border-[#5D77AE]/80"
-                          : "bg-[#BED1C1]/40 text-[#2A442E] hover:bg-[#BED1C1]/60 border border-4 border-[#ffb888]/70"
+                          : "bg-[#BED1C1]/80 text-[#2A442E] hover:bg-[#BED1C1]/60 border border-4 border-[#ffb888]/70"
                         }`}
           >
             <ChevronRight className="w-6 h-6" />

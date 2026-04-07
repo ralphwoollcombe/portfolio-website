@@ -155,13 +155,6 @@ const ContactSection = () => {
                 isDarkMode={isDarkMode}
               />
               <ContactItem
-                icon={Globe}
-                label="Website"
-                value="ralphwoollcombe.com"
-                href="https://ralphwoollcombe.com"
-                isDarkMode={isDarkMode}
-              />
-              <ContactItem
                 icon={MapPin}
                 label="Location"
                 value="Bristol, London, Berlin & Remote"
