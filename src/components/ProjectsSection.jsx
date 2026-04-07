@@ -13,7 +13,7 @@ import miniBranchesDark from "@/assets/mini-branches-dark.png"
 
 import Section from "./Section"
 
-const ProjectCard = ({ title, description, icon: Icon, tags, github, isDarkMode }) => {
+const ProjectCard = ({ title, description, icon: Icon, tags, readme, github, isDarkMode }) => {
   return (
     <div
       className={`relative rounded-2xl m-6 p-6 md:m-8 backdrop-blur-sm max-w-2xl max-h-[280px] overflow-y-auto w-full
@@ -127,7 +127,8 @@ const ProjectsSection = () => {
       description:
         "A unique and creative browser-based version of Battleships using HTML, JavaScript and CSS. I pushed myself to develop complex functions that enhanced the gameplay dramatically as well as developing an engaging plot.",
       tags: [<DiHtml5/>, <DiCss3/>, <DiJavascript1/>],
-      github: "https://github.com/ralphwoollcombe/beetleships",
+      github: "https://github.com/ralphwoollcombe/battleships",
+      readme: "https://github.com/ralphwoollcombe/Project-1-battleships/blob/main/README.md",
     },
     {
       title: "Twitcher",
@@ -135,7 +136,8 @@ const ProjectsSection = () => {
       description:
         "A full-stack birdwatching application built with Node.js, Express, and MongoDB. I implemented full and complex CRUD systems allowing users to curate their own profile log of species, sightings and habitats. The app features secure authentication with password encryption. I have many ideas to take this app further.",
       tags: [<DiNodejs/>, <SiExpress/>, <DiMongodb/>],
-      github: "https://github.com/ralphwoollcombe/twitcher",
+      github: "https://github.com/ralphwoollcombe/Project-2-Fill-up-my-bucket",
+      readme: "https://github.com/ralphwoollcombe/Project-2-Fill-up-my-bucket/blob/main/README.md",
     },
     {
       title: "Drobe",
@@ -144,6 +146,7 @@ const ProjectsSection = () => {
         "A full-stack sustainable wardrobe management app built with Python and PostgreSQL after just two weeks of learning Python. Features relational database schemas, CRUD functionality, and one-to-many and many-to-many model relationships.",
       tags: [<DiPython/>, <DiPostgresql/>, <DiDjango/>],
       github: "https://github.com/ralphwoollcombe/drobe",
+      readme: "https://github.com/ralphwoollcombe/drobe/blob/main/README.md",
     },
   ]
 
@@ -234,6 +237,7 @@ const ProjectsSection = () => {
                 description={projects[currentIndex].description}
                 tags={projects[currentIndex].tags}
                 github={projects[currentIndex].github}
+                readme={projects[currentIndex].readme}
                 isDarkMode={isDarkMode}
               />
             </div>
