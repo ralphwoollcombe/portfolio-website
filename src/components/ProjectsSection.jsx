@@ -127,7 +127,7 @@ const ProjectsSection = () => {
       description:
         "A unique and creative browser-based version of Battleships using HTML, JavaScript and CSS. I pushed myself to develop complex functions that enhanced the gameplay dramatically as well as developing an engaging plot.",
       tags: [<DiHtml5/>, <DiCss3/>, <DiJavascript1/>],
-      github: "https://github.com/ralphwoollcombe/battleships",
+      github: "https://github.com/ralphwoollcombe/Project-1-battleships/tree/main",
       readme: "https://github.com/ralphwoollcombe/Project-1-battleships/blob/main/README.md",
     },
     {
