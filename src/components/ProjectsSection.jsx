@@ -93,7 +93,7 @@ const ProjectCard = ({ title, description, icon: Icon, tags, readme, github, isD
               Code
             </a>
             <a
-              href="#"
+              href={readme}
               className={`flex items-center gap-2 text-sm font-medium
                           transition-colors duration-300
                           ${isDarkMode
