@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useTheme } from "../context/ThemeContext"
 import {
-  Scissors, Music, Film, Gamepad2,
+  Scissors, Handbag, ChessRook, Wind, Film,
   PartyPopper, Theater,
   TreePine, Paintbrush, Flame
 } from "lucide-react"
@@ -133,13 +133,13 @@ const InterestsSection = () => {
 
   const interests = [
     {
-      icon: Scissors,
+      icon: Handbag,
       title: "Fashion",
       description:
         "My interest in fashion has grown majorly over the last few years, eventually leading me to start my own fashion brand. I have a passion for sustainable and circular fashion and try to make the majority of my clothes. I have modelled and designed for sustainable fashion events and organised a clothes swap runway event called ReRunway.",
     },
     {
-      icon: Paintbrush,
+      icon: Scissors,
       title: "Costume & Crafting",
       description:
         "I love getting hands-on with creative projects and have spent years making elaborate costumes, in 2024 I even went out to Rio, Brazil to work on the costumes for the official parade. that same year I organised a trashion show where myself and 12 other designers presented outfits created entirely from rubbish. Recently, I have discovered a new passion for puppetry and hope to put on a puppet show later this year!",
@@ -157,7 +157,7 @@ const InterestsSection = () => {
         `Over the last couple of years, I’ve built up the courage to step out on stage, something previously well outside my comfort zone. It’s had a surprising effect on my confidence in all aspects of my life!`,
     },
     {
-      icon: Music,
+      icon: Wind,
       title: "Dance",
       description:
         `I've attended classes across hip-hop, afrobeat, samba, forró, contemporary, pole, ballet and more. I've been involved in running multiple ongoing sober dance events.`,
@@ -169,7 +169,7 @@ const InterestsSection = () => {
         "I love being social, but nothing beats getting cosy on the sofa with some popcorn and a well-made movie! Although I've left the TV industry, I still occasionally make short documentaries in my spare time.",
     },
     {
-      icon: Gamepad2,
+      icon: ChessRook,
       title: "Games",
       description:
         `I've always loved playing games and host a regular improv games evening. I would love to go on The Traitors one year, knowing I’d be an incredible detective! I also love getting lost in a board game and letting my competitive side to take over.`,

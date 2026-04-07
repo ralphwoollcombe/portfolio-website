@@ -202,6 +202,13 @@ It was here that I developed the disciplined research practices, structured docu
             />
             </div>
 
+             <p
+          className={`text-base md:text-lg mb-8 text-center max-w-xl
+                      ${isDarkMode ? "text-[#c6cdda]" : "text-[#002E0E]/60"}`}
+        >
+          Click a role to find out more!
+        </p>
+
         {/* Timeline + Detail */}
         <div className="flex gap-6 md:gap-8 max-w-5xl w-full items-start">
 
