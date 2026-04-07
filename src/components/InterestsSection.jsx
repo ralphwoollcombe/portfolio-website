@@ -134,33 +134,33 @@ const InterestsSection = () => {
   const interests = [
     {
       icon: Scissors,
-      title: "Sewing & Costume",
+      title: "Fashion",
       description:
-        "I've spent years creating elaborate costumes — from working at Rio Carnival on the parade outfits to organising a trashion show in 2024 where myself and 12 other designers presented outfits created entirely from rubbish.",
+        "My interest in fashion has grown majorly over the last few years, eventually leading me to start my own fashion brand. I have a passion for sustainable and circular fashion and try to make the majority of my clothes. I have modelled and designed for sustainable fashion events and organised a clothes swap runway event called ReRunway.",
     },
     {
       icon: Paintbrush,
-      title: "Crafting",
+      title: "Costume & Crafting",
       description:
-        "I love getting hands-on with creative projects and sharing skills with others. Whether it's textiles, upcycling, or experimenting with new materials, I'm happiest when I'm making something from scratch.",
+        "I love getting hands-on with creative projects and have spent years making elaborate costumes, in 2024 I even went out to Rio, Brazil to work on the costumes for the official parade. that same year I organised a trashion show where myself and 12 other designers presented outfits created entirely from rubbish. Recently, I have discovered a new passion for puppetry and hope to put on a puppet show later this year!",
     },
     {
       icon: TreePine,
       title: "Nature & Wildlife",
       description:
-        "My background in biology and wildlife filmmaking left me with a deep love for the natural world. I still spend as much time as I can outdoors — whether it's birdwatching, hiking, or just sitting still in a forest.",
+        "My background in biology and wildlife filmmaking left me with a deep love for the natural world. I spend as much time as I can outdoors and will happily sit in the same spot for hours observing the beauty of an ecosystem in constant motion.",
     },
     {
       icon: Theater,
       title: "Performing",
       description:
-        "I've recently immersed myself in the world of puppetry and will be performing later this year. I've also been involved behind the scenes on decor teams for various events and festivals.",
+        `Over the last couple of years, I’ve built up the courage to step out on stage, something previously well outside my comfort zone. It’s had a surprising effect on my confidence in all aspects of my life!`,
     },
     {
       icon: Music,
       title: "Dance",
       description:
-        "I've attended classes across hip-hop, afrobeat, samba, forró, contemporary, pole, ballet and more. I've been involved in starting and running multiple ongoing sober dance events.",
+        `I've attended classes across hip-hop, afrobeat, samba, forró, contemporary, pole, ballet and more. I've been involved in running multiple ongoing sober dance events.`,
     },
     {
       icon: Film,
@@ -172,19 +172,19 @@ const InterestsSection = () => {
       icon: Gamepad2,
       title: "Games",
       description:
-        "I've always loved playing games and host a regular improv games evening. I would love to go on The Traitors one year — I think I'd do very well!",
+        `I've always loved playing games and host a regular improv games evening. I would love to go on The Traitors one year, knowing I’d be an incredible detective! I also love getting lost in a board game and letting my competitive side to take over.`,
     },
     {
       icon: PartyPopper,
       title: "Set Design & Events",
       description:
-        "I've spent years behind the scenes on decor teams for festivals and events, building immersive spaces. I love creating environments where people can come together and express themselves freely.",
+        `I've spent years behind the scenes on decor teams for festivals and events, building immersive spaces. I love creating environments where people can come together and express themselves freely.`,
     },
     {
       icon: Flame,
-      title: "Sauna & Movement",
+      title: "Sauna & Exercise",
       description:
-        "I practise yoga and meditation regularly, swim whenever I can, and have become a bit obsessed with the sauna-to-cold-plunge cycle. There's something about extreme heat followed by ice-cold water that completely resets my brain.",
+        "I practise yoga every morning, meditate regularly, and swim whenever I can. I’ve also been taking full advantage of the sauna revolution that’s going on right now.",
     },
   ]
 

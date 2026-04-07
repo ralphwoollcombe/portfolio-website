@@ -90,32 +90,19 @@ const AboutSection = () => {
                 className={`text-base md:text-lg leading-relaxed mb-6
                             ${isDarkMode ? "text-white/80" : "text-[#002E0E]"}`}
             >
-                I'm a Junior Software Engineer with a distinctive background in
-                documentary filmmaking and fashion entrepreneurship, bringing
-                together creativity, systems thinking, and technical
-                problem-solving to build thoughtful digital products.
+                I'm a Junior Software Engineer with a distinctive background in documentary filmmaking and fashion entrepreneurship, bringing together creativity, systems thinking, and technical problem-solving to build thoughtful digital products.
             </p>
             <p
                 className={`text-base md:text-lg leading-relaxed mb-6
                             ${isDarkMode ? "text-white/80" : "text-[#002E0E]"}`}
             >
-                I began my career in wildlife documentary production, developing
-                a strong technical foundation, meticulous attention to detail,
-                and a deep appreciation for clear, purposeful storytelling.
-                Later, as the founder of a fashion brand centred on queer
-                expression, I strengthened my skills in digital design, user
-                experience, and creating products tailored to specific communities.
+                I began my career in wildlife documentary production, developing a strong technical foundation, meticulous attention to detail, and a deep appreciation for clear, purposeful storytelling. Later, as the founder of a fashion brand centred on queer expression, I strengthened my skills in digital design, user experience, and creating products tailored to specific communities.
             </p>
             <p
                 className={`text-base md:text-lg leading-relaxed
                             ${isDarkMode ? "text-white/80" : "text-[#002E0E]"}`}
             >
-                Recognising that my strengths lie in logical reasoning and
-                designing efficient systems, I transitioned into software
-                engineering and completed an intensive full-stack bootcamp at
-                General Assembly. I'm motivated by work that blends creativity
-                with technical rigour, and I'm excited to contribute to teams
-                building user-focused, impactful software.
+                Recognising that my strengths lie in logical reasoning and designing efficient systems, I transitioned into software engineering and completed an intensive full-stack bootcamp at General Assembly. I'm motivated by work that blends creativity with technical rigour, and I'm excited to contribute to teams building user-focused, impactful software.
             </p>
             </div>
         </div>        

@@ -125,7 +125,7 @@ const ProjectsSection = () => {
       title: "BeetleShips",
       icon: Ship,
       description:
-        "A unique and creative browser-based version of Battleships. Implemented DOM manipulation, event-driven architecture, and modular JavaScript design for an engaging gameplay experience.",
+        "A unique and creative browser-based version of Battleships using HTML, JavaScript and CSS. I pushed myself to develop complex functions that enhanced the gameplay dramatically as well as developing an engaging plot.",
       tags: [<DiHtml5/>, <DiCss3/>, <DiJavascript1/>],
       github: "https://github.com/ralphwoollcombe/beetleships",
     },
@@ -133,7 +133,7 @@ const ProjectsSection = () => {
       title: "Twitcher",
       icon: Bird,
       description:
-        "A full-stack birdwatching application built with Node.js, Express, and MongoDB. Features RESTful routes, full CRUD operations with Mongoose, and secure authentication with password encryption.",
+        "A full-stack birdwatching application built with Node.js, Express, and MongoDB. I implemented full and complex CRUD systems allowing users to curate their own profile log of species, sightings and habitats. The app features secure authentication with password encryption. I have many ideas to take this app further.",
       tags: [<DiNodejs/>, <SiExpress/>, <DiMongodb/>],
       github: "https://github.com/ralphwoollcombe/twitcher",
     },
@@ -141,7 +141,7 @@ const ProjectsSection = () => {
       title: "Drobe",
       icon: Shirt,
       description:
-        "A full-stack wardrobe management app built with Python and PostgreSQL after just two weeks of learning Python. Features relational database schemas, CRUD functionality, and one-to-many and many-to-many model relationships.",
+        "A full-stack sustainable wardrobe management app built with Python and PostgreSQL after just two weeks of learning Python. Features relational database schemas, CRUD functionality, and one-to-many and many-to-many model relationships.",
       tags: [<DiPython/>, <DiPostgresql/>, <DiDjango/>],
       github: "https://github.com/ralphwoollcombe/drobe",
     },
@@ -202,9 +202,8 @@ const ProjectsSection = () => {
           className={`text-base md:text-lg mb-10 text-center max-w-xxl
                       ${isDarkMode ? "text-[#ffffff]/80" : "text-[#002E0E]/60"}`}
         >
-          Full-stack applications built during General Assembly's 450+ hour
-          immersive bootcamp, working in Agile sprints with daily stand-ups
-          and collaborative code reviews.
+          Applications built during General Assembly's 450+ hour
+          immersive bootcamp.
         </p>
 
         {/* Carousel */}

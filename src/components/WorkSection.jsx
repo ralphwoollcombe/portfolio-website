@@ -118,22 +118,22 @@ const WorkSection = () => {
       company: "General Assembly",
       date: "2025 — 2026",
       location: "Remote",
-      description: `In late 2025, I took the leap into software engineering full-time, enrolling in General Assembly's intensive 450+ hour bootcamp. It was one of the most challenging and rewarding things I've done — going from writing my first lines of JavaScript to building and deploying full-stack applications in just a few months.
+      description: `In late 2025, I took the leap into software engineering full-time, enrolling in General Assembly's intensive 450+ hour bootcamp. It was one of the most challenging and rewarding things I've done, going from writing my first lines of JavaScript to building and deploying full-stack applications in just a few months.
 
-I worked in Agile sprints with daily stand-ups, pair programming and collaborative code reviews, which quickly taught me how real development teams operate. Every project started with proper planning — wireframes, ERDs, and user stories — before writing a single line of code.
+I worked in Agile sprints with daily stand-ups, pair programming and collaborative code reviews, which quickly taught me how real development teams operate. Every project started with proper planning using wireframes, ERDs, and user stories before writing a single line of code.
 
-By the end I'd delivered four projects: BeetleShips, a creative browser-based game built with vanilla JavaScript; Twitcher, a full-stack birdwatching app using Node.js, Express and MongoDB; WorldQuest, a group MERN-stack application where we split front-end and back-end work and collaborated through Git branching and pull requests; and Drobe, a Python and PostgreSQL wardrobe app I built after just two weeks of learning Python. Each project pushed me further and cemented my confidence that this is the right path for me.`,
+By the end, I'd delivered four projects: BeetleShips, a creative browser-based game; Twitcher, a full-stack birdwatching app using Express and MongoDB; WorldQuest, a group MERN-stack application where we collaborated through Git branching and pull requests; and finally Drobe, a Python and PostgreSQL community wardrobe app I built after just two weeks of learning Python. Each project pushed me further and cemented my confidence that this is the right path for me.`,
     },
     {
       title: "Founder & Fashion Designer",
       company: "Cheek",
       date: "2025 — Present",
       location: "London",
-      description: `Cheek started as a passion project and grew into a fully operational independent fashion brand centred on queer expression. I've designed, produced and delivered over 100 original garments — handling everything from sourcing and prototyping to production workflows and customer delivery.
+      description: `Cheek started as a passion project and grew into a fully operational independent fashion brand centred on queer expression. I've designed, produced and delivered over 100 original garments, handling everything from sourcing and prototyping to production workflows and customer delivery.
 
 What surprised me most was how much of the work was about building systems. I created structured workflows to track commissions, materials, deadlines and fulfilment, which dramatically improved my turnaround consistency. I built the brand identity from scratch, grew an engaged niche audience through iterative content testing, and managed all pricing strategy, budgeting and supplier coordination to keep things sustainable.
 
-Running Cheek taught me end-to-end product thinking in a way nothing else could have. Translating customer feedback into product iterations, refining designs based on real behaviour and demand — it's remarkably similar to building user-focused software. The entrepreneurial mindset, the systems design, and the independent execution I developed here have directly shaped how I approach engineering problems.`,
+Running Cheek taught me end-to-end product thinking in a way nothing else could have. Translating customer feedback into product iterations, refining designs based on real behaviour and demand - it's remarkably similar to building user-focused software. The entrepreneurial mindset, the systems design, and the independent execution I developed here have directly shaped how I approach engineering problems.`,
     },
      {
       title: "Learning Support Assistant",
@@ -142,29 +142,29 @@ Running Cheek taught me end-to-end product thinking in a way nothing else could 
       location: "London",
       description: `Between leaving television and starting my engineering bootcamp, I spent ten months as a Learning Support Assistant, working with KS3 students with additional learning needs. It was a role that stretched me in unexpected ways.
 
-I designed and ran small-group reading interventions, broke down complex material into accessible formats, and adapted my approach constantly based on individual student needs. The core challenge — taking something complicated and making it understandable for someone with a completely different frame of reference — is a skill I now use every day when writing clean code, documenting projects, or explaining technical concepts to non-technical collaborators.`,
+I designed and ran small-group reading interventions, broke down complex material into accessible formats, and adapted my approach constantly based on individual student needs. The core challenge was taking something complicated and making it understandable for someone with a completely different frame of reference, a skill I now use every day when writing clean code.`,
     },
     {
       title: "Documentary Researcher & On-Location Director",
       company: "Offspring Films (Apple TV+)",
       date: "2020 — 2023",
       location: "Bristol & International",
-      description: `I spent over three years working on EARTHSOUNDS, a 12-part global natural history series for Apple TV+, progressing from Researcher to On-Location Director — a journey that took me from a desk in Bristol to the Amazon rainforest and the Himalayas.
+      description: `I spent over three years working on Earthsounds, a 12-part global natural history series for Apple TV+, working both from a desk in Bristol and on film shoots in the Amazon rainforest and the Himalayas.
 
 As a Researcher, I synthesised vast amounts of scientific literature into clear narrative treatments that shaped multiple international episodes. I built relationships with scientists around the world, translating complex bio-acoustic research into accessible, compelling storytelling. I also produced detailed pre-production documents and directed early-stage edits in post-production, refining narrative structure through iterative review.
 
-As an On-Location Director, I led multi-week shoots in some of the most remote and challenging environments on earth, managing crews of up to 10. Every day required rapid decision-making — adapting to unpredictable weather, wildlife behaviour and operational constraints while keeping complex shoots on schedule and within budget. This role demanded the kind of structured planning, real-time problem-solving and calm leadership under pressure that I now bring to technical challenges.`,
+As an On-Location Director, I led multi-week shoots in some of the most remote and challenging environments on earth, managing crews of up to 10. Every day required rapid decision-making, adapting to unpredictable weather, wildlife behaviour and operational constraints while keeping complex shoots on schedule and within budget. This role demanded the kind of structured planning, real-time problem-solving and calm leadership under pressure that I now bring to technical challenges.`,
     },
     {
       title: "Documentary Researcher",
       company: "Plimsoll Productions",
       date: "2019 — 2020",
       location: "Bristol",
-      description: `Plimsoll was where my career in natural history television really began. I contributed to some incredible series — Animal for Netflix, SuperNatural for NatGeo, and Night on Earth for Netflix — and it gave me a solid foundation in research rigour and production workflows.
+      description: `Plimsoll Productions was where I started my career in natural history TV. I contributed to some incredible series: Animal for Netflix, SuperNatural for NatGeo, and Night on Earth for Netflix.
 
 I researched and synthesised scientific and narrative source material to support episode development, produced structured treatments, storyboards and pitch decks, and conducted detailed fact-checking to ensure both scientific accuracy and narrative integrity. Working across development, production and post-production teams taught me how to communicate clearly across disciplines and maintain consistency in complex, collaborative projects.
 
-It was here that I developed the disciplined research practices, structured documentation habits, and meticulous attention to detail that have carried through everything I've done since — including my transition into software engineering.`,
+It was here that I developed the disciplined research practices, structured documentation habits, and meticulous attention to detail that have carried through everything I've done since, including my transition into software engineering.`,
     },
   ]
 
